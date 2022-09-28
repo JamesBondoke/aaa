@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container, .parent {
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.child, .child5 {
+	width: 600px;
+	height: 400px;
+	margin: 5px;
+}
+.child1 {
+	background: url(aziz.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+}
+.child2 {
+	background: url(aziz2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+}
+.child6 {
+	background: url(aziz3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+}
+.child7 {
+	background: url(aziz5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+	.container {
+		height: 130vh;
+	}
+}
+section {
+	animation: aziz 3s infinite;
+}
+@keyframes aziz {
+	0% {
+		background-color: #ccd5ae;
+	}
+	0% {
+		background-color: #a3b18a;
+	}
+	0% {
+		background-color: #dde5b6;
+	}
+	0% {
+		background-color: #caf0f8;
+	}
+	0% {
+		background-color: #adb5bd;
+	}
+
+}
+@media screen and (max-width: 568px) {
+	.container {
+		height: 90vh;
+	}
+}
